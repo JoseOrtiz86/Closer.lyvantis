@@ -1,4 +1,4 @@
-// Middleware temporarily disabled for testing purposes.
+// Middleware temporarily disabled
 export function middleware() {
   return;
 }
