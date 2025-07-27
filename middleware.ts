@@ -1,4 +1,4 @@
 // Middleware temporarily disabled
 export function middleware() {
-  return;
+  return new Response(null, { status: 204 });
 }
