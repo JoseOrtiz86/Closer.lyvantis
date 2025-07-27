@@ -1,4 +1,5 @@
-// Middleware temporarily disabled
+import { NextResponse } from 'next/server';
+
 export function middleware() {
-  return new Response(null, { status: 204 });
+  return NextResponse.next();
 }
